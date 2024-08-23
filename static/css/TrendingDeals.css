@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+
+    /* font-size: 2rem; */
+}
+.blockbuster_deals_container{
+    width: auto;
+
+    /* overflow: hidden; */
+}
+.heading{
+    align-items: center;
+    display: flex;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.heading a{ 
+    margin-top: 3px;
+    margin-left: 20px;
+    color: #007185;
+}
+.blockbusters_deal_product_container{
+    background-color: white;
+    width:200%;
+    height: 265px;
+    position: relative;
+}
+.blockbusters_deal_product_list{
+    display: flex;
+    margin-left: 27px;
+    width: 2000px;
+    /* overflow: hidden; */
+}
+.blockbusters_deals_product_item{
+    padding: 10px;
+    padding-right: 10px;
+    width: 100%;
+    min-width: 193px;
+    display: grid;
+    transform: translateX(0%);
+    transition: transform 1s;
+}
+.blockbusters_deals_product_item img{
+    height: 146px;
+    width: 150px;
+    margin-bottom: 15px;
+    
+}
+.discount_container a:first-child{
+    background-color: #cc0c39;
+    padding: 5px 7px;
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 11px;
+}
+.discount_container a{
+    display: inline;
+    font-size: 11px;
+    color: #cc0c39;
+    text-decoration: none;
+}
+.alt{
+    margin-top: -10px;
+    font-size: 11px;
+}
+.blockbuster_deals_button_container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    z-index: 30;
+    max-width: 98.5vw;
+}
+.blockbuster_deals_button{
+    padding: 30px 10px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.center{
+    /* display: ; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;     
+}

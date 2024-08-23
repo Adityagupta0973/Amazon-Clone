@@ -1,0 +1,56 @@
+.state_sign_in {
+    /* margin-top: 4vh; */
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin-bottom: 2.5vh;
+    background:white;
+}
+.sign_in_button {
+    border: 0;
+    line-height: 15px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.title {
+    color: #000;
+    font-size: 13px;
+}
+.action_button {
+    max-width: 230px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 230px;
+    display: block;
+    background-position: -10px -170px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+}
+.action_inner {
+    cursor: pointer;
+    background-position: right -170px;
+    display: block;
+    height: 28px;
+    position: relative;
+    color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+}
+a{
+    text-decoration: none;
+}
+.new_customer {
+    font-size: 11px;
+}
+.new_customer a{
+    color: #007185;
+}
+/* .horizontalLine{
+    padding-top: 5vh;
+} */

@@ -1,0 +1,13 @@
+.ticket{
+     box-sizing: border-box;
+    width: 100%;
+    height: 45vh;
+    background:white;
+    padding: 20px;
+
+}
+.ticket img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+}

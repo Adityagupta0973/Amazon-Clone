@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    margin-top: 1rem;
+    font-size: small;
+}
+
+/*BACK TO MAIN*/
+
+#anchor{
+    text-align: center;
+    background-color: #3b4858;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#anchor a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    display: block;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#anchor:hover{
+    text-decoration: none;
+    background-color: #485769;
+    cursor:pointer;
+}
+
+/*BACK TO MAIN - END*/
+
+
+
+/*MAIN MIDDLE FOOTER*/
+
+.main_middle_footer{
+    background-color: rgb(35, 47, 62);
+    width: 100%;
+    height: 33rem;
+}
+
+.middle_footer{
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8rem;
+
+}
+
+.middle_footer ul{
+    list-style-type: none
+}
+.middle_footer ul li{
+    margin-bottom: 0.5rem;
+}
+.middle_footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.blank{
+    width: 8rem;
+    height: 22rem;
+}
+
+.boxA{
+    margin-top: 2rem;
+    color:rgb(224, 224, 230);
+    font-size: 1.0rem;
+}
+.boxB{
+    margin-top: 2rem;
+    color:rgb(224, 224, 230);
+    font-size: 1.0rem;
+}
+.boxC{
+    margin-top: 2rem;
+    color:rgb(224, 224, 230);
+    font-size: 1.0rem;
+}
+.boxD{
+    margin-top: 2rem;
+    color:rgb(224, 224, 230);
+    font-size: 1.0rem;
+}
+
+#first_element{
+    margin-bottom: 1.2rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.lower_footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.lower_footer div{
+    margin-inline: 0.6rem;
+}
+
+#united{
+    margin-top: 0.5rem;
+}
+
+.footer_middle_amazon_pic{
+    display: flex;
+    flex-flow: row wrap;
+    color: azure;
+    gap: 6rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer_middle_amazon_pic img{
+    width: 8rem;
+    height: 5rem;
+    margin-top: 1.2rem;
+}
+
+.footer_middle_english{
+    border: 1px solid white;
+    border-radius: 0.3em;
+    height: 2rem;
+    width: 9rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 0.5em;
+}
+
+/*MAIN MIDDLE FOOTER - END*/
+
+
+
+/*LOWEST FOOTER*/
+
+.section_lowest{
+    background-color: #131a22;
+    width:100%;
+    height: 15rem;
+    color: white;
+}
+
+.lowest_footer{
+    background-color: #131a22;
+    color:rgb(162, 162, 162);
+    font-size: 0.80rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.first_row{
+    color: whitesmoke;
+}
+
+#lowest_footer_upper{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+
+#lowest_footer_lower{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin-left: 12rem;
+}
+
+#lowest_upper_2{
+    margin-left: 1.5rem;
+}
+
+#lowest_upper_3{
+    margin-left: 1.4rem;
+}
+#lowest_lower_3{
+    margin-left: 1.9rem;
+}
+
+#lowest_upper_4{
+    margin-left: 4.4rem;
+}
+#lowest_lower_4{
+    margin-left: 1.5rem;
+}
+
+#lowest_upper_1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_upper_2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_upper_3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_upper_4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_lower_1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_lower_2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_lower_3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lowest_lower_4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lowest_lowest_footer{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 0.89rem;
+}
+
+.lowest_lowest_lowest_footer{
+    font-size: 0.89rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+#lowest_lowest_footer_1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#lowest_lowest_footer_2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#lowest_lowest_footer_3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*LOWEST FOOTER - END*/

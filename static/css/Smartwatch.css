@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+}
+
+.heading{
+    align-items: center;
+    display: flex;
+    /* padding: 2px 20px; */
+    text-decoration: none;
+    background: white;
+    padding-bottom: 3vh;
+}
+.heading a{ 
+    margin-top: 3px;
+    margin-left: 20px;
+    color: #007185;
+    text-decoration: none;
+}
+.watchcontainer{
+    position:absolute;
+    background: white;
+}
+.smartwatches_button_container{
+    /* position: fixed; */
+    max-width: 98.5vw;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 200px;
+    z-index: 30;
+}
+.smartwatches_button{
+    padding: 30px 10px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.smartwatches_product_list{
+    display: flex;
+    /* margin-left: 27px; */
+    width: 100%;
+    gap: 30px;
+    transform: translateX(0%);
+    transition: transform 1s;
+    /* overflow:hidden; */
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+     <!-- style files -->
+
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <!-- <link rel="stylesheet" href="/static/css/style2.css" /> -->
+    <link rel="stylesheet" href="static/css/footer.css" />
+    <link rel="stylesheet" href="static/css/Smartwatch.css" />
+    <link rel="stylesheet" href="/static/css/SignIn.css">
+    <link rel="stylesheet" href="/static/css/box2.css">
+    <!-- <link rel="stylesheet" href="/static/css/box1.css"> -->
+
+
+      <!-- style files end -->
+
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logodiv">
+        <img id="logoimg" src="/static/images/white_text_amazon.png" alt="" />
+        <p>.in</p>
+      </div>
+      <div class="location">
+        <i class="fa-solid fa-location-dot location_icon"></i>
+        <div class="location_text">
+          <h5>Hello</h5>
+          <h5>select your address</h5>
+        </div>
+      </div>
+
+      <div class="input">
+        <input type="text" placeholder="Search Amazon.in" />
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="language" id="lang" onmouseover="showTool()" onmouseout="hideTool()">
+           
+              <img src="/static/images/Tiranga.png" alt="">
+              <b> EN  </b>
+              <i class="fa-solid fa-caret-down" style="color: #444546;"></i>
+              <div class="tooltip" id="tooltip">
+                <ul>
+                  <li><a href="#">English</a></li>
+                 <li><a href="#">हिन्दी - HI</a></li>
+                 <li><a href="#">தமிழ் - TA</a> </li>
+                 <li><a href="#">తెలుగు - TE</a> </li>
+                 <li><a href="#">ಕನ್ನಡ - KN </a></li>
+                 <li><a href="#">മലയാളം - ML </a></li>
+                 <li><a href="#">বাংলা - BN </a></li>
+                 <li><a href="#">मराठी - MR</a> </li>
+                </ul>
+
+              </div>
+            
+      </div>
+      <div class="account" onmouseover="showTooltip()" onmouseout="hideTooltip()">
+        Hello,sign in <br>
+        Account & Lists
+        <i class="fa-solid fa-caret-down" style="color: #444546;"></i>
+
+        <!-- <div class="accounttooltip">
+               <div>Sign in </div>
+               <p>New customer? <a href="#">Start here</a></p>
+               <hr>
+              <div class="container">
+                  <div>
+                      <b>Your Lists</b><br>
+                      Create a wish List<br>
+                       Baby Wishlist <br>
+                       Discover your style <br>
+                       Explore Showroom <br>
+                 </div>
+                 <div>
+            <b>Your Acount</b><br>
+            your Account <br>
+            your Orders <br>
+            your wish List <br>
+            Your Recommendations <br>
+            your Payment Methods <br>
+            Your Prime Membership <br>
+            Your Prime video <br>
+            your Subscribe & Save Items <br>
+            Memberships & Subscriptions <br>
+            Your Seller Account <br>
+            Manage Your Content and devices <br>
+            Your Free Amazon Business Account <br>
+                </div>
+             </div>
+
+        </div> -->
+
+      </div>
+   
+    <div class="return">
+        Return & <br> 
+         Orders
+    </div>
+    <div class="cart">
+      <i class="fa fa-shopping-cart"></i>
+
+
+    </div>
+  </div>
+    <div class="navbar2">
+      <ul>
+        <li><a href="#">Amazon miniTV</a></li>
+        <li><a href="">Sell</a></li>
+        <li><a href="">Today's Deals</a></li>
+        <li><a href="">Best Sellers</a></li>
+        <li><a href="">Mobiles</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Prime</a></li>
+        <li><a href="#">New Release</a></li>
+        <li><a href="#">Home & Kitchen</a></li>
+        <li><a href="#">Gift ideas</a></li>
+        <li><a href="#">Fashion</a></li>
+        <li><a href="#">Computers</a></li>
+        <li><a href="#">Amazon Pay</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Coupons</a></li>
+      </ul>
+    </div>
+    <section class="wrapper">
+    <div class="main">
+      <img
+        id="main_img"
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/KV_Hero_PC_Day-1_2X_EN._CB575892060_.jpg"
+        alt=""
+      />
+      <div id="left">
+        <i id="prevButton" class="fa-solid fa-angle-left"></i>
+      </div>
+      <div id="right">
+        <i id="nextButton" class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+    <div class="box1">{% include 'box1.html' %}</div>
+  </section>
+    <div class="watches">{% include 'Smartwatch.html' %}</div>
+    <div class="second_box">{% include 'box2.html' %}</div>
+    <div class="Aditya">{% include 'TrendingDeals.html' %}</div>
+    <div class="Train">{% include 'Train.html' %}</div>
+    <div class="signIn">{% include 'SignIn.html' %}</div>
+    <div class="end">{% include 'footer.html' %}</div>
+    <script src="/static/js/index.js"></script>
+  </body>
+</html>
